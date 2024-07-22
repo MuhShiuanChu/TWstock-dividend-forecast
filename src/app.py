@@ -16,7 +16,7 @@ app = Dash(__name__, title="TWstock dividend forecast")
 
 server = app.server
 
-data_file = '2023final_predicted_data_test_1.csv'
+data_file = '2023final_predicted_data_test_1.csv' 
 
 PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("data").resolve()
